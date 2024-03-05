@@ -1,0 +1,21 @@
+.div1,.div2,.div3 {
+  width: 500px;
+  padding: 20px;
+  background-color: blueviolet;
+  color: white;
+  
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div2{
+  background-color: rgba(138, 43, 226, 0.5);
+}
+
+.div3 {
+  background-color: rgba(138, 43, 226, 0.1);
+}

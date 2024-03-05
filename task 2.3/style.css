@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+ .div1,.div2,.div3 {
+    height: 200px;
+    width: 900px;
+    margin: 20px ;
+    padding: 20px;
+    color: white;
+    border: 5px;
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  .div1 {
+    background-color: grey;
+    border: solid 20px red;
+    outline: black solid 10px;
+  }
+  
+  .div2 {
+    background-color: gray;
+    border-top: solid 20px blue ;
+    border-bottom:solid 20px blue ;
+    border-left:green solid 20px ;
+    border-right: green solid 20px;
+    outline: black solid 10px;
+  }
+  
+  .div3 {
+    background-color:gray;
+    border-top: dashed 20px red;
+    border-bottom:blue   dashed 20px;
+    border-right:  dashed 20px green;
+    border-left:  dashed 20px yellow;
+    outline: black solid 10px;
+  }
